@@ -1,0 +1,19 @@
+stat_name,label,concept_name,off_or_def,rank_asc,rd_dec,off_def_stat_name
+tm_to_pct,TO%,Turnovers,Off,TRUE,1,off_to_pct
+opp_to_pct,TO%,Turnovers,Def,FALSE,1,def_to_pct
+tm_drb_pct,DRB%,Rebounding,Def,FALSE,1,def_drb_pct
+opp_drb_pct,DRB%,Rebounding,Off,FALSE,1,off_drb_pct
+tm_orb_pct,ORB%,Rebounding,Off,FALSE,1,off_orb_pct
+opp_orb_pct,ORB%,Rebounding,Def,FALSE,1,def_orb_pct
+tm_efg_pct,eFG%,Shooting,Off,FALSE,1,off_efg_pct
+opp_efg_pct,eFG%,Shooting,Def,TRUE,1,def_efg_pct
+Pos,Poss/40 Min,Pace,Net,FALSE,1,pos
+tm_net_eff,Pts/100Poss,Efficiency,Net,FALSE,1,net_eff
+tm_off_eff,Pts/100Poss,Efficiency,Off,FALSE,1,off_eff
+tm_def_eff,Pts/100Poss,Efficiency,Def,TRUE,1,def_eff
+tm_fta_rate,rFTA,FTA Rate,Off,FALSE,3,off_fta_rate
+opp_fta_rate,rFTA,FTA Rate,Def,TRUE,3,def_fta_rate
+tm_ts_pct,TS%,True Shooting,Off,FALSE,1,off_ts_pct
+opp_ts_pct,TS%,True Shooting,Def,TRUE,1,def_ts_pct
+tm_ast_rate,OAR%,Assists,Off,FALSE,1,off_ast_rate
+opp_ast_rate,DAR%,Assists,Def,TRUE,1,def_ast_rate
